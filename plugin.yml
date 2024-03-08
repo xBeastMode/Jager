@@ -1,0 +1,6 @@
+---
+name: Jager
+version: 0.0.1
+main: xBeastMode\Jager\Jager
+api: 4.0.0
+...
