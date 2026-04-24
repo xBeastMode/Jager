@@ -1,33 +1,145 @@
-# Euphoria Jager 2021 (outdated)
+# 🧟 Euphoria Jager (2021) — Archived
 
-### This minigame was created by xBeastMode as a fun spooky concept for events held at euphoria (minecraft bedrock server) during the 2021 pandemic lockdown, whoever would kill the most hunters would get the winning price.
+A custom **PocketMine-MP minigame** created for events on the *Euphoria* Minecraft: Bedrock Edition server during the 2021 pandemic lockdown.
 
-# How to play?
-There is the Hunter and the Innocents. The Hunter has a one hit kill sword and other items to track and eliminate the Innocents. There are 3 Phases to this game. In Phase 1, Innocents get 90 seconds to collect as many resources as possible from chests before the Nightfall and the Hunter arrive. In Phase 2, Innocents are effected with blindness and can't sprint. They must hide so the Hunter does not find them. In Phase 3, Infection arrives. The resources Innocents collected in Phase 1 will determine if they survive.
+Players compete in a survival-style game mode where one **Hunter** tracks down multiple **Innocents** across different gameplay phases.
 
-The hunter spawns with four items: ONE HIT KILL SWORD, THE SCORPION, 2 BANDAGES, 2 VOLT ENERGY.
+> ⚠️ **Status:** Outdated / archived — kept for portfolio purposes
 
-Hunter weakness: slowness, cannot easily chase after Innocents.
+---
 
-- One kill sword: does 100% damage on Innocents with 60 seconds cooldown.
-- The scorpion: one time use item that can be thrown at Innocents, if picked up by innocent they will be teleported to the hunter for an easy kill, if picked up by hunter will take 10 hearts.
-- Bandage: will heal 10 hearts on hunter.
-- VOLT ENERGY: temporarily removes hunters slowness.
+## 🧠 Overview
 
-The Innocents spawn with four items: USED BANDAGE, WEAK ANTI-BIOTIC PILL, WEAK RUBBING ALCOHOL, USED FLASHLIGHT.
+Euphoria Jager is an asymmetric PvP minigame built around survival, strategy, and tension.
 
-Innocent weakness: blindness, no sprint, sickness, infection, water. Why water? Because it's a forested area and it's cold and you get hypothermia.
+- One player becomes the **Hunter**
+- The rest are **Innocents**
+- The goal: survive, hide, or outplay the Hunter across multiple phases
 
-- USED BANDAGE: can give a small amounts of health or cause infection.
-- weak anti-biotic pill: may cure infection but most likely not
-- weak running alcohol: may stop infection temporarily but will hurt you if doesn't stop it.
-- used flashlight: may temporarily remove blindness.
+The player who eliminates the most opponents (or survives the longest) wins the event.
 
-Items on the hunt: WEAK RUBBING ALCOHOL, WEAK ANTI-BIOTIC PILL, USED BANDAGE, USED FLASHLIGHT, STRONG ANTI-BIOTIC PILL, STRONG RUNNING ALCOHOL, LETHAL SWORD.
+---
 
-These items can be found near places where there is light. Always follow the light! Although there will only be one lethal sword, you will find it on the ground in a random spot.
-Tips: watch out, there is a lose wolf and someone watching.
+## 🎮 Game Phases
 
-![image info](screenshots/sc1.png)
-![image info](screenshots/sc2.jpg)
-![image info](screenshots/sc3.png)
+### 🌅 Phase 1 — Preparation (90 seconds)
+- Innocents explore and loot chests  
+- Gather resources needed for survival  
+- Prepare before nightfall  
+
+---
+
+### 🌑 Phase 2 — Hunt Begins
+- Hunter enters the game  
+- Innocents suffer:
+  - Blindness  
+  - No sprinting  
+- Focus shifts to hiding and survival  
+
+---
+
+### ☣️ Phase 3 — Infection
+- Infection mechanics activate  
+- Resources collected earlier determine survival chances  
+- Increased pressure and difficulty  
+
+---
+
+## ⚔️ Roles & Abilities
+
+### 🩸 Hunter
+
+**Strengths:**
+- High damage output  
+- Tracking and control tools  
+
+**Weaknesses:**
+- Slowness  
+- Limited mobility  
+
+**Starting Items:**
+
+| Item | Effect |
+|------|--------|
+| 🗡️ One-Hit Sword | Instantly kills Innocents (60s cooldown) |
+| 🦂 Scorpion | Teleports target to Hunter (single use) |
+| 🩹 Bandage (x2) | Heals 10 hearts |
+| ⚡ Volt Energy (x2) | Temporarily removes slowness |
+
+---
+
+### 🌿 Innocents
+
+**Strengths:**
+- Numbers  
+- Resource-based survival  
+
+**Weaknesses:**
+- Blindness  
+- No sprint  
+- Infection risk  
+- Environmental hazards (e.g. water → hypothermia)  
+
+**Starting Items:**
+
+| Item | Effect |
+|------|--------|
+| 🩹 Used Bandage | Small heal or infection risk |
+| 💊 Weak Antibiotic | Low chance to cure infection |
+| 🧴 Weak Rubbing Alcohol | May delay infection (with risk) |
+| 🔦 Used Flashlight | Temporarily removes blindness |
+
+---
+
+## 🧰 Loot System
+
+Items can be found across the map, typically near light sources.
+
+### Possible Loot:
+- Used Bandage  
+- Weak/Strong Antibiotics  
+- Weak/Strong Rubbing Alcohol  
+- Flashlights  
+- 🗡️ **Lethal Sword (rare)**  
+
+> 💡 Tip: *Follow the light to find loot.*
+
+---
+
+## ⚠️ Gameplay Tips
+
+- Stay hidden during Phase 2  
+- Manage infection carefully  
+- Use resources strategically  
+- Be aware of environmental dangers  
+- Not everything is as safe as it seems…  
+
+---
+
+## 🖼️ Screenshots
+
+![Gameplay Screenshot 1](screenshots/sc1.png)  
+![Gameplay Screenshot 2](screenshots/sc2.jpg)  
+![Gameplay Screenshot 3](screenshots/sc3.png)  
+
+---
+
+## 🧪 Learning Outcomes
+
+This project demonstrates:
+
+- Event-driven game logic using PocketMine-MP  
+- Designing asymmetric multiplayer systems  
+- Managing multi-phase gameplay states  
+- Creating item-based mechanics and effects  
+- Balancing gameplay under constraints  
+
+---
+
+## 💡 Notes
+
+This minigame was developed as part of a live server event and reflects:
+
+- Creative game design  
+- Real-time multiplayer systems  
+- Rapid prototyping under constraints  
